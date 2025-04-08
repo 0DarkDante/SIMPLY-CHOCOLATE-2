@@ -48,6 +48,14 @@ button {
   letter-spacing: -0.03em;
   color: #111;
   padding: 28px 0;
+  position: relative;
+}
+
+.header-nav-link-svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 4px;
 }
 
 .header-nav-item-link {
