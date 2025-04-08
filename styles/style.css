@@ -37,7 +37,7 @@ button {
 .header-nav-list {
   display: flex;
   gap: 24px;
-  
+  align-items: center;
 }
 
 .header-nav-link {
@@ -65,6 +65,23 @@ button {
   letter-spacing: -0.02em;
   color: #111;
   padding: 28px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+}
+
+.header-nav-list-icon {
+  display: flex;
+  gap: 18px;
+  stroke: #000000;
+  fill: none;
+  margin-right: 32px;
+  margin-left: 90px;
+}
+
+.header-nav-list-link {
+  padding: 24px 0;
 }
 
 /* SECTION quick_purchase */
