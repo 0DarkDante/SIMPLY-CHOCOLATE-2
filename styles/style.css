@@ -78,10 +78,15 @@ button {
   fill: none;
   margin-right: 32px;
   margin-left: 90px;
+  height: 24px;
 }
 
 .header-nav-list-link {
-  padding: 24px 0;
+  padding: 28px 0;
+}
+
+.header-nav-list-svg {
+  vertical-align: middle;
 }
 
 /* SECTION quick_purchase */
