@@ -93,12 +93,21 @@ button {
 
 .quick_purchase {
   min-height: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
   margin-bottom: 72px;
+  background-image: linear-gradient(
+    rgba(30, 24, 35, 0.4),
+    rgba(30, 24, 35, 0.4)), 
+    url(../images/chocolate-covered-cocoa-powder.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1e1823;
+  border-radius: 30px;
 }
 
 .quick_purchase .container {
-  background-color: #1e1823;
-  border-radius: 30px;
 }
 
 .quick_purchase_main_link {
@@ -130,12 +139,34 @@ button {
 }
 
 .quick_purchase_scroll {
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.03em;
   color: #fff;
   margin-left: auto;
+  margin-right: 45px;
+}
+
+.quick_purchase_scroll::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.quick_purchase_scroll-svg {
+  position: absolute;
+  z-index: 2;
+  right: -42px;
+  top: -2px;
 }
 
 .quick_purchase_case1 {
