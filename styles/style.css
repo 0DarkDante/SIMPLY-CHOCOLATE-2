@@ -65,6 +65,11 @@ button {
   letter-spacing: -0.02em;
   color: #111;
   padding: 28px 0;
+  transition: color 300ms ease;
+}
+
+.header-nav-item-link:hover {
+  color: #fd9222;
 }
 
 .footer-wrapper {
@@ -87,6 +92,11 @@ button {
 
 .header-nav-list-svg {
   vertical-align: middle;
+  transition: stroke 400ms ease;
+}
+
+.header-nav-list-svg:hover {
+  stroke: #fd9222;
 }
 
 /* SECTION quick_purchase */
@@ -127,6 +137,12 @@ button {
   color: #fff;
   background-color: #fd9222;
   margin-right: 14px;
+  transition: color 300ms ease, background-color 300ms ease;
+}
+
+.quick_purchase_btn:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
 
 .quick_purchase_link {
@@ -136,6 +152,12 @@ button {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  transition: color border-color, 300, ease;
+}
+
+.quick_purchase_link:hover {
+  color: #fd9222;
+  border-color: #fd9222;
 }
 
 .quick_purchase_scroll {
@@ -147,6 +169,11 @@ button {
   color: #fff;
   margin-left: auto;
   margin-right: 45px;
+  transition: color 300ms ease;
+}
+
+.quick_purchase_scroll:hover {
+  color: #fd9222;
 }
 
 .quick_purchase_scroll::after {
@@ -242,6 +269,13 @@ button {
   justify-content: center;
   align-items: center;
   top: -81px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+
+.benefits-link-svg:hover {
+  color: #FD9222;
 }
 
 /* section ingridient magic */
