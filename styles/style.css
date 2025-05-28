@@ -68,7 +68,8 @@ button {
   transition: color 300ms ease;
 }
 
-.header-nav-item-link:hover {
+.header-nav-item-link:hover,
+.footer_nav_link:hover {
   color: #fd9222;
 }
 
@@ -341,6 +342,11 @@ button {
   flex-basis: calc((100% - 57px) / 4);
 }
 
+.ingredients_magic_item:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
 .ingredients_magic_item_img {
 
 }
@@ -503,6 +509,12 @@ button {
   background-color: transparent;
   display: block;
   margin: 0 auto;
+  transition: color,background-color 300ms ease;
+}
+
+.reviews_btn:hover {
+  color: #fff;
+  background-color: #fd9222;
 }
 
 /* footer */
@@ -581,4 +593,5 @@ footer {
   letter-spacing: -0.02em;
   color: #fff;
   padding-bottom: 86px;
+  transition: color 300ms ease;
 }
